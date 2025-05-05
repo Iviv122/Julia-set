@@ -68,7 +68,7 @@ int main(void){
 				int max_iter = int(abs(sin(time(NULL) * 0.01)) * 1000.0);
 				
 				float x = (i - ScreenWidth / 2.0) / (ScreenWidth / 4.0);
-		        float y = (j - ScreenHeight / 2.0) / (ScreenHeight / 4.0);
+		        	float y = (j - ScreenHeight / 2.0) / (ScreenHeight / 4.0);
 
 
 				float f = julia({x,y},c,max_iter);
